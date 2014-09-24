@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/userID_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_075"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/name_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userID_075"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/score_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_075"
+        android:layout_below="@+id/name_075"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userID_075"
+        android:layout_toLeftOf="@+id/userID_075"
+        android:text="userID" />
+
+    <TextView
+        android:id="@+id/textView2_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1_075"
+        android:layout_below="@+id/userID_075"
+        android:layout_marginTop="8dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView3_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2_075"
+        android:layout_below="@+id/name_075"
+        android:layout_marginTop="10dp"
+        android:text="Score" />
+
+    <Button
+        android:id="@+id/btnsave_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnok_075"
+        android:layout_below="@+id/textView5_075"
+        android:layout_marginTop="49dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnok_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score_075"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textView4_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3_075"
+        android:layout_below="@+id/btnok_075"
+        android:layout_marginLeft="7dp"
+        android:text="Grade" />
+
+    <TextView
+        android:id="@+id/textView5_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4_075"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="คำนวน" />
+
+</RelativeLayout>
